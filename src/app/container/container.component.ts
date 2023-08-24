@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ContainerComponent {
   // listOfString: string[] = ['Mark', 'Jhon', 'Carl', 'Tony', 'Peter'];
+
+  searchText: string = '';
+
+  setSearchText(data: string) {
+    // console.log(data);
+    this.searchText = data;
+  }
 }

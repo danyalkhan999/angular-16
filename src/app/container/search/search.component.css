@@ -14,14 +14,14 @@
 }
 
 .btn{
-    padding: 12px 30px;
+    padding: 9px 30px;
     border: none;
     
     
 }
 
 .btn-search{
-    padding: 12px 30px;
+    /* padding: 12px 30px; */
     background-color: #282828;
     margin-left: -1px;
     color: #fff;
