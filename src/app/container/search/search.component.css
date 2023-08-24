@@ -1,0 +1,36 @@
+.ekart--search-product{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ekart--search-product-input{
+    width: 40%;
+    height: 5.5vh;
+    padding: 1px 10px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #efefef;
+    border: #282828 1 px solid ;
+}
+
+.btn{
+    padding: 12px 30px;
+    border: none;
+    
+    
+}
+
+.btn-search{
+    padding: 12px 30px;
+    background-color: #282828;
+    margin-left: -1px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+.ekart-search-result-for{
+    margin: 20px auto;
+    padding: 10px 140px;
+}
