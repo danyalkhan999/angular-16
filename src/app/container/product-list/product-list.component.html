@@ -6,7 +6,7 @@
 ></app-filter>
 
 <div class="ekart--product-container">
-  <div *ngFor="let p of products">
+  <div *ngFor="let p of products" (click)="selectedProducts = p">
     <app-product
       [product]="p"
       *ngIf="searchText === '' || p.name.toLowerCase().includes(searchText)"

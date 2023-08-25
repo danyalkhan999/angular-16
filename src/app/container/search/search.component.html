@@ -6,9 +6,7 @@
     (input)="updateSearchText($event)"
   /> -->
   <input type="text" class="ekart--search-product-input" #searchInput />
-  <button class="btn btn-search" (click)="updateSearchText(searchInput)">
-    Search
-  </button>
+  <button class="btn btn-search" (click)="updateSearchText()">Search</button>
 </div>
 <div class="ekart-search-result-for">
   <p *ngIf="searchText != ''">

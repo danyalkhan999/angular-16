@@ -3,5 +3,9 @@
   <!-- <div *ngFor="let i of listOfString">
     <p>{{ "My name is " + i }}</p>
   </div> -->
-  <product-list [searchText]="searchText"></product-list>
+  <product-list [searchText]="searchText" #productListComponent></product-list>
+  <product-detail
+    *ngIf="productListComponent.selectedProducts"
+    [productListComp]="productListComponent"
+  ></product-detail>
 </div>
